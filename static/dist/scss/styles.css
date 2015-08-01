@@ -1,0 +1,107 @@
+html, body, div {
+  font-size: 16px;
+  font-weight: 500; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0; }
+
+.property_nav {
+  background-color: #373738;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.dark_gray {
+  background-color: #373738; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.container, .row {
+  position: relative;
+  margin: 0 auto;
+  padding: 0; }
+
+.property_nav .flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.property_nav .rent_or_buy {
+  padding: 8px 4px;
+  background-color: black; }
+
+.property_nav .rent_or_buy, .property_nav .nav, .property_nav .views {
+  display: inline-block;
+  margin: 0; }
+
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0; }
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+ul li {
+  display: inline-block;
+  font-weight: 300;
+  line-height: 24px; }
+
+.property_nav .rent_or_buy a.active {
+  background-color: #009880; }
+
+.property_nav .rent_or_buy a {
+  background-color: black;
+  padding: 5px 15px;
+  -webkit-transition: .1s;
+  transition: .1s;
+  background-color: #1a1a1a; }
+
+.property_nav a {
+  color: white;
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #404041; }
+
+.property_nav .rent_or_buy a.active {
+  background-color: #009880; }

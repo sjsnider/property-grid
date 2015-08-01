@@ -6,7 +6,9 @@
   "main": "js/app.js",
   "private": true,
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "react-select": "^0.5.6",
+    "lodash": "^3.10.0"
   },
   "devDependencies": {
     "browserify": "^6.2.0",

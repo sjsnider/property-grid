@@ -6,17 +6,17 @@
 .dark_gray {
   background-color: #373738; }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .container {
-    width: 1170px; } }
+    width: 750px; } }
 
 @media (min-width: 992px) {
   .container {
     width: 970px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .container {
-    width: 750px; } }
+    width: 1170px; } }
 
 .container {
   margin-right: auto;
@@ -63,7 +63,7 @@ ul li {
   font-weight: 300;
   line-height: 24px; }
 
-.property_nav .rent_or_buy a.active {
+a.active {
   background-color: #009880; }
 
 .property_nav .rent_or_buy a {
@@ -83,3 +83,12 @@ a {
 
 .property_nav .rent_or_buy a.active {
   background-color: #009880; }
+
+.property_nav .rent_or_buy, .property_nav .nav, .property_nav .views {
+  display: inline-block;
+  margin: 0; }
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }

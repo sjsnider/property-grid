@@ -24,6 +24,6 @@ To watch just scss files:
   npm run watch-css
 ```
 
-I didn't bother including any kind of server since obviously you'll be running one, so all you should have to is load up the index.html file into your browser to see the page.  All the sorting and filtering works (as far as I could tell anyway).  Clicking on a property or on map view doesn't do anything.  All the javascript is in static/js.  It starts with app.js which gets the json of properties and then renders the initial react component and then it goes from there.  Let me know if you have any questions or need me to update something.  Sometimes it doesn't render 3 listings on every line like it should, happens for me when I sort squaret fee lowest to highest.  Quite confusing. 
+I didn't bother including any kind of server since obviously you'll be running one, so all you should have to is load up the index.html file into your browser to see the page.  All the sorting and filtering works (as far as I could tell anyway).  Clicking on a property or on map view doesn't do anything.  All the javascript is in static/js.  It starts with app.js which gets the json of properties and then renders the initial react component and then it goes from there.  Let me know if you have any questions or need me to update something.  Sometimes it doesn't render 3 listings on every line like it should, happens for me when I sort square feet lowest to highest.  Quite confusing. 
 
 These npm scripts are all located in the package.json file if you want to see what they are doing.

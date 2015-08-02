@@ -28,8 +28,8 @@ var Neighborhoods = React.createClass({
     });
     return neighborhoodsObjectsArray;
   },
-  updateNeighborhoods: function(x, y) {
-
+  updateNeighborhoods: function(selection, list) {
+    
   },
   render: function() {
     var neighborhoods = this.createNeighborhoodList();

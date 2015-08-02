@@ -3,7 +3,11 @@ var RentOrBuy = require('../components/RentOrBuy.react');
 var Neighborhoods = require('../components/Neighborhoods.react');
 var Views = require('../components/Views.react');
 
-var PropertyView = React.createClass({
+var FilterBar = React.createClass({
+  contextTypes: {
+    saleProperties: React.PropTypes.object.isRequired,
+    rentalProperties: React.PropTypes.object.isRequired
+  },
   getInitialState: function() {
     // default to buy tab
     return {
@@ -11,11 +15,15 @@ var PropertyView = React.createClass({
     };
   },
   updateRentOrBuy: function(buy) {
-    // if the one clicked was already selected, do nothing, otherwise swap them
+    // if the one clicked was already selected, do nothing, otherwise swap them and update the properties shown
+    // also clear out the filtered neighborhoods since the list of neighborhoods will probably be different for
+    // sales and rentals
     if (buy !== this.state.buy) {
       this.setState({
         buy: buy
       });
+      var properties = buy ? this.context.saleProperties : this.context.rentalProperties;
+      this.props.updateViewableListings(properties);
     }
   },
   render: function() {
@@ -35,4 +43,4 @@ var PropertyView = React.createClass({
   }
 });
 
-module.exports = PropertyView;
+module.exports = FilterBar;

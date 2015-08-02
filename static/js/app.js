@@ -1,5 +1,5 @@
 var React = require('react');
-var PropertyView = require('./components/PropertyView.react');
+var FilterBar = require('./components/FilterBar.react');
 
 var loadJSON = function(path, callback, key) {
   // var xobj = new XMLHttpRequest();
@@ -14,7 +14,7 @@ var loadJSON = function(path, callback, key) {
 
   // since I'm not actually starting up a server I'm just cheating and declaring the json
   // here rather than making an actual request to get it, not sure where you're going to be
-  // getting it from
+  // getting it from, but you just want to get it and then call the callback function with it as the argument
   callback({
         "sale_properties" : {
                 "east_63rd_street": { "title": "East 63rd Street", "pictureSrc": "img/1.jpeg", "price": '10,000,000', "type": "multi-family", "sqft": "12,000", "location": "upper east side" },
@@ -57,7 +57,7 @@ var startApp = function(properties) {
     render: function() {
       return (
         <div>
-          <PropertyView />
+          <FilterBar />
         </div>
       );
     }

@@ -2,7 +2,7 @@ var React = require('react');
 var RentOrBuy = require('../components/RentOrBuy.react');
 var Neighborhoods = require('../components/Neighborhoods.react');
 var Views = require('../components/Views.react');
-var Listings = require('../components/Listings.react');
+var SortBar = require('../components/SortBar.react');
 var _ = require('lodash');
 
 var FilterBar = React.createClass({
@@ -62,7 +62,9 @@ var FilterBar = React.createClass({
             </div>
           </div>
         </div>
-        <Listings listings={this.state.listings} />
+        <div>
+          <SortBar listings={this.state.listings} />
+        </div>
       </div>
     );
   }

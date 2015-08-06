@@ -34,7 +34,8 @@ var SortBar = React.createClass({
     var propertyToSortBy = sortDescriptionArray[0];
     var sortDirection = sortDescriptionArray[1];
     // create an array so I can sort it
-    var listingsArray = _.map(this.props.listings, function(listing) {
+    var listingsArray = _.map(this.props.listings, function(listing, i) {
+      listing.value = i;
       return listing;
     });
     listingsArray.sort(function(a, b) {

@@ -1,0 +1,881 @@
+{
+"sale": {
+        "46-east-65th-street":
+        {
+          "title":"46 East 65th Street ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_0049-copy-1505577569.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=89838f66ef33dc250ebd7e1e6cae1e59",
+          "url":"/properties/new-york/sale/46-east-65th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "18000000",
+          "currency": "$",
+          "property_type": "mixed-use",
+          "sqft": "10,253",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "63-east-82nd-street":
+        {
+          "title":"63 East 82nd Street ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_9722-copy-1505156885.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=1f45264d7f0647d5aa8054950b209e53",
+          "url":"/properties/new-york/sale/63-east-82nd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "17500000",
+          "currency": "$",
+          "property_type": "Townhouse",
+          "sqft": "9,035",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "345-west-14th-street-phb":
+        {
+          "title":"345 West 14th Street, PHB",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_9412-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=cf935980fee895f3ccbde8bcfdf4a61b",
+          "url":"/properties/new-york/sale/345-west-14th-street-phb",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "7495000",
+          "currency": "$",
+          "property_type": "Condominium",
+          "sqft": "2,016",
+          "property_location": "West Village","ownership": ""
+        },
+        "208-west-11th-street":
+        {
+          "title":"208 West 11th Street ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/208-West-11th-Street_012-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=c88fdc8f7734b1f88469faa1af11a97a",
+          "url":"/properties/new-york/sale/208-west-11th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "11295000",
+          "currency": "$",
+          "property_type": "Single Family",
+          "sqft": "3,600",
+          "property_location": "West Village","ownership": ""
+        },
+        "50-52-east-81st-street":
+        {
+          "title":"50-52 East 81st Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_0602-copy.jpeg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=6cb9c1a5b4eec43e546ece646407efbb",
+          "url":"/properties/new-york/sale/50-52-east-81st-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "25495000",
+          "currency": "$",
+          "property_type": "Townhouse",
+          "sqft": "13,100",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "29-schermerhorn-street":
+        {
+          "title":"29 Schermerhorn Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_8591-2-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=2a7f97e1b8a7c293deb53fdbfdf96c49",
+          "url":"/properties/new-york/sale/29-schermerhorn-street",
+          "streeteasy_status": "active",
+          "openhouse": "openhouse",
+          "price": "9395000",
+          "currency": "$",
+          "property_type": "Townhouse",
+          "sqft": "5,660",
+          "property_location": "Brooklyn","ownership": ""
+        },
+        "318-west-81st-street":
+        {
+          "title":"318 West 81st Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_9111-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=5d8f7f39bdb20a61e56a8ddc84bf8e67",
+          "url":"/properties/new-york/sale/318-west-81st-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "14250000",
+          "currency": "$",
+          "property_type": "Single Family",
+          "sqft": "8,200",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "516-state-street":
+        {
+          "title":"516 State Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_8894-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=edd15920ecc62cf76bbf0855d553db3f",
+          "url":"/properties/new-york/sale/516-state-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "2695000",
+          "currency": "$",
+          "property_type": "Single Family",
+          "sqft": "2,000",
+          "property_location": "Brooklyn","ownership": ""
+        },
+        "21-east-96th-street-apt-7":
+        {
+          "title":"21 East 96th Street, 7",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg-8707-copyjpg.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=f60f7e0c0735c6aa698c08fda9440070",
+          "url":"/properties/new-york/sale/21-east-96th-street-apt-7",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5950000",
+          "currency": "$",
+          "property_type": "Condominium",
+          "sqft": "3,004",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "226-east-32nd-street":
+        {
+          "title":"226 East 32nd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_8241 copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=5b34f0894145770dc6005f1c170c4d5a",
+          "url":"/properties/new-york/sale/226-east-32nd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5400000",
+          "currency": "$",
+          "property_type": "House",
+          "sqft": "4,500",
+          "property_location": "Midtown East","ownership": ""
+        },
+        "73-washington-place":
+        {
+          "title":"73 Washington Place",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/73 Wash Low Res Facade copy (1).jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=cc9c327715185e57ee0449cd0f816629",
+          "url":"/properties/new-york/sale/73-washington-place",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "11950000",
+          "currency": "$",
+          "property_type": "Townhouse",
+          "sqft": "8,643",
+          "property_location": "Greenwich Village","ownership": ""
+        },
+        "313-west-80th-street":
+        {
+          "title":"313 West 80th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_8148 copy-1497996374.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=6f38aaae9bc95b65cae8c92cdfcae64f",
+          "url":"/properties/new-york/sale/313-west-80th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "8300000",
+          "currency": "$",
+          "property_type": "Single Family",
+          "sqft": "4,396",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "110-west-76th-street":
+        {
+          "title":"110 West 76th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_7750 copy-1496434425.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=76f602abb8d17f74f66bb26aaefdd949",
+          "url":"/properties/new-york/sale/110-west-76th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "9000000",
+          "currency": "$",
+          "property_type": "Multi-Family",
+          "sqft": "7,290",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "110-112-west-76th-street":
+        {
+          "title":"110-112 West 76th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_7741 copy-1496433361.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=2d9a2ab77b9c6f1d5367fc7721ecb736",
+          "url":"/properties/new-york/sale/110-112-west-76th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "17999999",
+          "currency": "$",
+          "property_type": "Multi-Family",
+          "sqft": "14,580",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "112-west-76th-street":
+        {
+          "title":"112 West 76th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_7064 copy-1496434098.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=45961cd28d4789c3d8b1b815bd47be7e",
+          "url":"/properties/new-york/sale/112-west-76th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "9000000",
+          "currency": "$",
+          "property_type": "Multi-Family",
+          "sqft": "7,290",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "19-minetta-street":
+        {
+          "title":"19 Minetta Street ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_6489 copy-1494337019.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=ae35f2c88ba36cb386c8520da774020a",
+          "url":"/properties/new-york/sale/19-minetta-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5695000",
+          "currency": "$",
+          "property_type": "House",
+          "sqft": "2,825",
+          "property_location": "West Village","ownership": ""
+        },
+        "306-east-81st-street":
+        {
+          "title":"306 East 81st Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_7260 copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=d68d859bf2824f66cbeed1ffec1ca594",
+          "url":"/properties/new-york/sale/306-east-81st-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5950000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "4,100",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "45-east-63rd-street":
+        {
+          "title":"45 East 63rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/47-east-63rd-street_172-copy-2.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=2476fb7b2ca1fbb149d545d663b909da",
+          "url":"/properties/new-york/sale/45-east-63rd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "11750000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "5,223",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "45-47-east-63rd-street":
+        {
+          "title":"45-47 East 63rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/47-east-63rd-street_172-copy-20170429185703.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=b4e7c8aacab2050c383b13057f774154",
+          "url":"/properties/new-york/sale/45-47-east-63rd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "23500000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "10,655",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "47-east-63rd-street":
+        {
+          "title":"47 East 63rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/47-east-63rd-street_186-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=ee643f1521850bfd50ab06e82532dc19",
+          "url":"/properties/new-york/sale/47-east-63rd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "11750000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "5,432",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "29-west-75th-street":
+        {
+          "title":"29 West 75th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_5634-copy-20170427102924.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=908dd1b5c49e8012da76cc910afdb70b",
+          "url":"/properties/new-york/sale/29-west-75th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "17999999",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "9,800",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "5-minetta-lane":
+        {
+          "title":"5 Minetta Lane ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6489-copy-20170417103419.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=84d09ff32c97cfebded290cf1d95cc7b",
+          "url":"/properties/new-york/sale/5-minetta-lane",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5695000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "2,825",
+          "property_location": "Greenwich Village","ownership": ""
+        },
+        "433-east-85th-street":
+        {
+          "title":"433 East 85th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6883-copy-20170502121956.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=ebc6538b1773563427cffd085cc4bb76",
+          "url":"/properties/new-york/sale/433-east-85th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "6850000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,500",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "118-remsen-street":
+        {
+          "title":"118 Remsen Street, Townhouse",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6695-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=a0863b86fcbeab9aab05976c13d68b39",
+          "url":"/properties/new-york/sale/118-remsen-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "11950000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "10,200",
+          "property_location": "Brooklyn","ownership": ""
+        },
+        "293-henry-street":
+        {
+          "title":"293 Henry Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/293-henry-st_final-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=240f2831d7e398cd6a08ce997c1acef1",
+          "url":"/properties/new-york/sale/293-henry-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "4350000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "6,500",
+          "property_location": "Brooklyn","ownership": ""
+        },
+        "353-east-19th-street-1":
+        {
+          "title":"353 East 19th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_2555-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=df0da8b45612026e3dcf5e0a16f3906a",
+          "url":"/properties/new-york/sale/353-east-19th-street-1",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "4295000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "5,030",
+          "property_location": "Gramercy","ownership": ""
+        },
+        "134":
+        {
+          "title":"134 East 36th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6189-copy-1494507984.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=ef90aaab09304710408dae6b5801cf61",
+          "url":"/properties/new-york/sale/134",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "7499000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "4,273",
+          "property_location": "Midtown East","ownership": ""
+        },
+        "137-thompson-street":
+        {
+          "title":"137 Thompson Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_5348-copy-20170310174550.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=9ec96efffa4fa07c15234e364743e6e2",
+          "url":"/properties/new-york/sale/137-thompson-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "17250000",
+          "currency": "dollars",
+          "property_type": "mixed-use",
+          "sqft": "9,571",
+          "property_location": "Soho","ownership": ""
+        },
+        "west-20th-street":
+        {
+          "title":"344 West 20th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/332-west-20-no-logo.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=9f9d3cf164f48eff036f940b529edbae",
+          "url":"/properties/new-york/sale/west-20th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "7850000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "",
+          "property_location": "Chelsea","ownership": ""
+        },
+        "128-bank-street":
+        {
+          "title":"128 Bank Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg4462-copy-20170223143615.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=692fe251e5fe57d56394a62d912e3e2f",
+          "url":"/properties/new-york/sale/128-bank-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "8650000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "3,000",
+          "property_location": "West Village","ownership": ""
+        },
+        "14-henderson-place":
+        {
+          "title":"14 Henderson Place",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_3760-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=fc19da421a8ed422d6e96bbd50b32c5d",
+          "url":"/properties/new-york/sale/14-henderson-place",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "4350000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "2,448",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "409-east-50th-street":
+        {
+          "title":"409 East 50th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/409-e-50th-st_069-copy-1494508067.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=9257613e4a7fd93aaa8d4388f0ed7dd4",
+          "url":"/properties/new-york/sale/409-east-50th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5250000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "4,000",
+          "property_location": "Midtown East","ownership": ""
+        },
+        "505-east-84th-street":
+        {
+          "title":"505 East 84th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_3613 copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=3951677abb17ad6bffc2d8ba9e302a65",
+          "url":"/properties/new-york/sale/505-east-84th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "4675000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "3,900",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "133-135-west-13th-street":
+        {
+          "title":"133-135 West 13th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_3260-copy-20170324133521.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=03170839e89a38d3e7d082ad3f52868a",
+          "url":"/properties/new-york/sale/133-135-west-13th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "15650000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "9,600",
+          "property_location": "Greenwich Village","ownership": ""
+        },
+        "60-east-66th-street":
+        {
+          "title":"60 East 66th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_2286 copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=958d1d89333d69964bee533ea03d82b0",
+          "url":"/properties/new-york/sale/60-east-66th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "18500000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "9,769",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "85-perry-street":
+        {
+          "title":"85 Perry Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/unspecified-2.jpeg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=86b7868cc52aec2e4f472a1494aa4a00",
+          "url":"/properties/new-york/sale/85-perry-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "17950000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,159",
+          "property_location": "West Village","ownership": ""
+        },
+        "314-east-69th-street":
+        {
+          "title":"314 East 69th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_2508-copy-20170324134013.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=7340bd4e65315d7aa21bba4a31cd4bd5",
+          "url":"/properties/new-york/sale/314-east-69th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "7250000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,000",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "134-east-73rd-street":
+        {
+          "title":"134 East 73rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_0856-copy-20161010143811.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=7e73847647447926025c9f13f375cf3c",
+          "url":"/properties/new-york/sale/134-east-73rd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "8100000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,100",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "144-waverly-place":
+        {
+          "title":"144 Waverly Place",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_9461-20161005155026.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=897fdb0d17d22ac697461cfbd41021aa",
+          "url":"/properties/new-york/sale/144-waverly-place",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "10450000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "6,300",
+          "property_location": "West Village","ownership": ""
+        },
+        "743-greenwich-street":
+        {
+          "title":"743 Greenwich Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/743-greenwich-street-600x900.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=587492ed74f9c289592cf2455e2741dc",
+          "url":"/properties/new-york/sale/743-greenwich-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "11900000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "5,500",
+          "property_location": "West Village","ownership": ""
+        },
+        "334-east-69th-street":
+        {
+          "title":"334 East 69th Street ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/unspecified.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=3e5115cc4932997ad523749e556e791d",
+          "url":"/properties/new-york/sale/334-east-69th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5500000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "2,800",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "522-east-87th-street":
+        {
+          "title":"522 East 87th Street ",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/largeslv_0046_47_48_49_50_51_52_fused-20160913113935-20160914195712.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=df15b139f4e8436fed7a8c3244df52f1",
+          "url":"/properties/new-york/sale/522-east-87th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "8650000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,100",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "154-hicks-street":
+        {
+          "title":"154 Hicks Street, Townhouse",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_9950-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=6b306d2487fa0db9937968018bada41d",
+          "url":"/properties/new-york/sale/154-hicks-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "4550000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "5,444",
+          "property_location": "Brooklyn","ownership": ""
+        },
+        "41-west-70th-street":
+        {
+          "title":"41 West 70th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_3307-20170324133402.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=4be6d402012a8ee43a70a25a6d51c481",
+          "url":"/properties/new-york/sale/41-west-70th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "15999999",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "8,000",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "180-east-73rd-street":
+        {
+          "title":"180 East 73rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/180-east-73rd-street_003-1494508125.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=f2c5af2e79c3b839730a6e0815b3bd7d",
+          "url":"/properties/new-york/sale/180-east-73rd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "16750000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "524-east-89th-street":
+        {
+          "title":"524 East 89th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_5138.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=e6a884408659c47b99db84aadb2335d5",
+          "url":"/properties/new-york/sale/524-east-89th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "5250000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "3,000",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "329-east-52nd-street":
+        {
+          "title":"329 East 52nd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_4899-20160411100519.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=9bd1a8ac19fe3fdbb7fd38a5fda30b03",
+          "url":"/properties/new-york/sale/329-east-52nd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "6795000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "6,800",
+          "property_location": "Midtown East","ownership": ""
+        },
+        "1145-park-avenue":
+        {
+          "title":"1145 Park Avenue",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_4810.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=de48b8a859598c9b952fcd069753e9a0",
+          "url":"/properties/new-york/sale/1145-park-avenue",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "7950000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,200",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "53-east-67th-street":
+        {
+          "title":"53 East 67th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_3108-20160212103407.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=34e874ab88210e3087d0af086cec8687",
+          "url":"/properties/new-york/sale/53-east-67th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "18900000",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "7,263",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "6-west-83rd-street":
+        {
+          "title":"6 West 83rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/6w83rdfacade-1494507892.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=a12d375a0f328aaa83acc122912ada0e",
+          "url":"/properties/new-york/sale/6-west-83rd-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "6999999",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "5,000",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "306-west-78th-street":
+        {
+          "title":"306 West 78th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_1351-20160112143338-1494507707.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=171a787cb3993e1d9c339571ec456b23",
+          "url":"/properties/new-york/sale/306-west-78th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "8450000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "5,648",
+          "property_location": "Upper West Side","ownership": ""
+        },
+        "50-east-81st-street":
+        {
+          "title":"50 East 81st Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_5928 copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=0c36c5592aa66a6069cdd3b55f092269",
+          "url":"/properties/new-york/sale/50-east-81st-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "10500000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "7,365",
+          "property_location": "Upper East Side","ownership": ""
+        },
+  
+        "36-east-61st-street":
+        {
+          "title":"36 East 61st Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6705-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=85449d65dc8ba3c0452c333617f64a7e",
+          "url":"/properties/new-york/sale/36-east-61st-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "36900000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "15,900",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "52-east-64th-street":
+        {
+          "title":"52 East 64th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_2718-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=7b8e2a10ae11906de53b92a671f2963e",
+          "url":"/properties/new-york/sale/52-east-64th-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "12750000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "8,740",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "16-east-82nd-street":
+        {
+          "title":"16 East 82nd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_4446-2.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=5f19c7ad8098ed5ddca900aea3054d68",
+          "url":"/properties/new-york/sale/16-east-82nd-street",
+          "streeteasy_status": "in-contract",
+          "openhouse": "",
+          "price": "12250000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "9,468",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "8-east-93rd-street":
+        {
+          "title":"8 East 93rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_1223-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=57d85892f67a4ce3103164512d38bd1c",
+          "url":"/properties/new-york/sale/8-east-93rd-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "10950000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "5,700",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "129-east-95th-street":
+        {
+          "title":"129 East 95th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6298-copy-20170407115429.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=6d01666031e45589c7638a5725638a5d",
+          "url":"/properties/new-york/sale/129-east-95th-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "7850000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,000",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "249-east-71st-street":
+        {
+          "title":"249 East 71st Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_5508-copy-20170324134124.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=04a7a9c10924792c7fb3c0566584bf88",
+          "url":"/properties/new-york/sale/249-east-71st-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "6500000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "4,200",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "122-east-93rd-street":
+        {
+          "title":"122 East 93rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_2319-revised-1494365489.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=0af50bf00c9fb5b8c89069b311bedff4",
+          "url":"/properties/new-york/sale/122-east-93rd-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "4999500",
+          "currency": "dollars",
+          "property_type": "Multi-Family",
+          "sqft": "3,276",
+          "property_location": "Carnegie Hill","ownership": ""
+        },
+        "160-east-93rd-street":
+        {
+          "title":"160 East 93rd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/LJG_0747 copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=83121c83ca70af7313e54d0d22df779a",
+          "url":"/properties/new-york/sale/160-east-93rd-street",
+          "streeteasy_status": "in-contract",
+          "openhouse": "",
+          "price": "4950000",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "2,970",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "581a-20th-street":
+        {
+          "title":"581A 20th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_5683-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=1eddf4f02caee34a8d88bb16bb7c08b4",
+          "url":"/properties/new-york/sale/581a-20th-street",
+          "streeteasy_status": "sold",
+          "openhouse": "",
+          "price": "1399000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "1,965",
+          "property_location": "Brooklyn","ownership": ""
+        },
+        "555-west-23rd-street":
+        {
+          "title":"555 West 23rd Street, S4N",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg-8838-copyjpg-1500989060.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=5f07b519ed3f7d8a0964faffd2180fef",
+          "url":"/properties/new-york/sale/555-west-23rd-street",
+          "streeteasy_status": "in-contract",
+          "openhouse": "",
+          "price": "815000",
+          "currency": "$",
+          "property_type": "Condominium",
+          "sqft": "520",
+          "property_location": "Chelsea","ownership": ""
+        }
+  
+      },
+      "lease": {
+        "138-east-92nd-street-1":
+        {
+          "title":"138 East 92nd Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/_nik3992-20170127171013.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=debd0bc823f3ce7d8f96490a1d1c2b3c",
+          "url":"/properties/new-york/rental/138-east-92nd-street-1",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "17500",
+          "currency": "dollars",
+          "property_type": "Townhouse",
+          "sqft": "0",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "134-east-36th-street":
+        {
+          "title":"134 East 36th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_6189-copy-20170405225436.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=928dd0f9121b21433d6e7bab8f9248bc",
+          "url":"/properties/new-york/rental/134-east-36th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "18495",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "0",
+          "property_location": "Midtown East","ownership": ""
+        },
+        "146-east-end-avenue":
+        {
+          "title":"146 East End Avenue",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/ljg_5923-copy.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=cc8a3aa694be74833a445d07c4f2e74b",
+          "url":"/properties/new-york/rental/146-east-end-avenue",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "25900",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "2,650",
+          "property_location": "Upper East Side","ownership": ""
+        },
+        "313-west-4th-street":
+        {
+          "title":"313 West 4th Street",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/front-facade.JPG?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=a3e8ea346707c07efaad1e41005ff71c",
+          "url":"/properties/new-york/rental/313-west-4th-street",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "70000",
+          "currency": "dollars",
+          "property_type": "Single Family",
+          "sqft": "5,200",
+          "property_location": "West Village","ownership": ""
+        },
+        "1650-third-avenue-apt-4h":
+        {
+          "title":"1650 Third Avenue, Apt. 4H, 4H",
+          "preview_image":"https://lesliegarfield.imgix.net/assets/2-properties/1-sale/1650-20161010142530.jpg?auto=compress%2Cformat&h=600&ixlib=php-1.1.0&w=400&s=1b8a00de0a5c5e10be6589f9e024e71d",
+          "url":"/properties/new-york/rental/1650-third-avenue-apt-4h",
+          "streeteasy_status": "active",
+          "openhouse": "",
+          "price": "2350",
+          "currency": "dollars",
+          "property_type": "Apartment",
+          "sqft": "",
+          "property_location": "Carnegie Hill","ownership": " /month"
+        }
+  
+  
+      }
+    }

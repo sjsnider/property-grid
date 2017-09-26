@@ -1,30 +1,34 @@
+import Neighborhoods from '../components/Neighborhoods.react';
+import SortBar from '../components/SortBar.react';
 var React = require('react');
+var PropTypes = require('prop-types');
 var RentOrBuy = require('../components/RentOrBuy.react');
-var Neighborhoods = require('../components/Neighborhoods.react');
 var Views = require('../components/Views.react');
-var SortBar = require('../components/SortBar.react');
 var _ = require('lodash');
 
-var FilterBar = React.createClass({
-  contextTypes: {
-    saleProperties: React.PropTypes.object.isRequired,
-    rentalProperties: React.PropTypes.object.isRequired
-  },
-  getInitialState: function() {
-    // default to buy tab, no filters, and sale Properties
-    return {
+class FilterBar extends React.Component {
+
+  constructor(props, context) {
+    super(props);
+    this.state = {
       buy: true,
       filteredNeighborhoods: [],
-      listings: this.context.saleProperties
-    };
-  },
-  updateViewableListings: function(listings, filteredNeighborhoods) {
+      listings: context.saleProperties
+    }
+    this.updateViewableListings = this.updateViewableListings.bind(this);
+    this.updateRentOrBuy = this.updateRentOrBuy.bind(this);
+    this.updateFilteredNeighborhoods = this.updateFilteredNeighborhoods.bind(this);
+  }
+
+  updateViewableListings (listings, filteredNeighborhoods) {
+    // default to buy tab, no filters, and sale Properties
     this.setState({
       listings: listings,
       filteredNeighborhoods: filteredNeighborhoods
     });
-  },
-  updateRentOrBuy: function(buy) {
+  }
+
+  updateRentOrBuy (buy) {
     // if the one clicked was already selected, do nothing, otherwise swap them and update the properties shown
     // also clear out the filtered neighborhoods since the list of neighborhoods will probably be different for
     // sales and rentals
@@ -35,20 +39,22 @@ var FilterBar = React.createClass({
       var properties = buy ? this.context.saleProperties : this.context.rentalProperties;
       this.updateViewableListings(properties, []);
     }
-  },
-  updateFilteredNeighborhoods: function(list, properties) {
+  }
+
+  updateFilteredNeighborhoods (list, properties) {
     // get properties with the selected neighborhoods
     var viewableProperties = _.filter(properties, function(property) {
       var contains = list.length === 0 ? true : false;
       _.each(list, function(neighborhood) {
-          if (neighborhood.value === property.location)
+          if (neighborhood.value === property.property_location)
             contains = true;
       });
       return contains;
     });
     this.updateViewableListings(viewableProperties, list);
-  },
-  render: function() {
+  }
+
+  render () {
     return (
       <div>
         <div className='property_nav dark_gray'>
@@ -68,6 +74,11 @@ var FilterBar = React.createClass({
       </div>
     );
   }
-});
+};
 
-module.exports = FilterBar;
+FilterBar.contextTypes = {
+  saleProperties: PropTypes.object.isRequired,
+  rentalProperties: PropTypes.object.isRequired
+}
+
+export default FilterBar;

@@ -1,12 +1,13 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
-var Listing = React.createClass({
+var Listing = createReactClass({
   render: function() {
     var listing = this.props.listing;
     return (
       <div className='col-md-4'>
         <a className='property_box'>
-          <img src={listing.pictureSrc} />
+          <img src={listing.pictureSrc} alt='listing'/>
           <div className='property_tile_info'>
             <div className='top-info'>
               <h3>{listing.title}</h3>

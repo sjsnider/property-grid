@@ -1,8 +1,9 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Listing = require('../components/Listing.react');
 var _ = require('lodash');
 
-var Listings = React.createClass({
+var Listings = createReactClass({
   render: function() {
     var rows = _.map(this.props.listings, function(listing, i) {
       return (<Listing listing={listing} key={i} />);

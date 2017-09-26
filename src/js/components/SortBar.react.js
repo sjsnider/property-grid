@@ -1,6 +1,7 @@
+import  Select from 'react-select';
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Listings = require('../components/Listings.react');
-var Select = require('react-select');
 var _ = require('lodash');
 
 var sortOptions = [
@@ -22,7 +23,7 @@ var sortOptions = [
   }
 ];
 
-var SortBar = React.createClass({
+var SortBar = createReactClass({
   getInitialState: function() {
     // default to sorting by price, high to low
     return {
@@ -42,9 +43,9 @@ var SortBar = React.createClass({
       // only offering sort by price and square feet right now, would have to modify this slightly if sorting by
       // a string (title or neighborhood) was supposed to be an option as well
       if (sortDirection === 'ascend')
-        return parseInt(a[propertyToSortBy].replace(',', '')) - parseInt(b[propertyToSortBy].replace(',', ''));
+        return parseInt(a[propertyToSortBy].replace(',', ''), 10) - parseInt(b[propertyToSortBy].replace(',', ''), 10);
       else 
-        return parseInt(b[propertyToSortBy].replace(',', '')) - parseInt(a[propertyToSortBy].replace(',', ''));
+        return parseInt(b[propertyToSortBy].replace(',', ''), 10) - parseInt(a[propertyToSortBy].replace(',', ''), 10);
     });
     return listingsArray;
   },
@@ -73,4 +74,4 @@ var SortBar = React.createClass({
   }
 });
 
-module.exports = SortBar;
+export default SortBar;

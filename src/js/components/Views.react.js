@@ -1,6 +1,7 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
-var Views = React.createClass({
+var Views = createReactClass({
   render: function() {
     return (
       <div style={{float: 'right'}}>

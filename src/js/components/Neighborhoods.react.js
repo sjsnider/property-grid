@@ -1,19 +1,42 @@
+import Select from 'react-select';
 var React = require('react');
-var Select = require('react-select');
+var PropTypes = require('prop-types');
 var _ = require('lodash');
-var logChange = function() {
-  return;
-};
-var Neighborhoods = React.createClass({
-  contextTypes: {
-    saleProperties: React.PropTypes.object.isRequired,
-    rentalProperties: React.PropTypes.object.isRequired
-  },
-  createNeighborhoodList: function() {
+
+class Neighborhoods extends React.Component {
+  constructor(props) {
+    super(props);
+    this.createNeighborhoodList = this.createNeighborhoodList.bind(this);
+    this.updateNeighborhoods = this.updateNeighborhoods.bind(this);
+    this.checkForUrlFilter = this.checkForUrlFilter.bind(this);
+  }
+  
+  componentDidMount() {
+    this.checkForUrlFilter();
+  }
+
+  componentWillUpdate() {
+    this.checkForUrlFilter();
+  }
+
+  checkForUrlFilter() {
+    // filter based on url path
+    if (this.context.neighborhood && this.neighborhood !== this.context.neighborhood) {
+      this.neighborhood = this.context.neighborhood;
+      const nameArray = this.neighborhood.split('-');
+      const nameArrayCaps = nameArray.map(w => {
+        return w.charAt(0).toUpperCase() + w.slice(1);
+      });
+
+      this.updateNeighborhoods([{ value: nameArrayCaps.join(' ') }]);
+    }
+  }
+
+  createNeighborhoodList () {
     this.properties = this.props.buy ? this.context.saleProperties : this.context.rentalProperties;
     // create the list of neighborhoods to display by looking at the list of appropriate properties (sale or rentals)
     var neighborhoods = _.map(this.properties, function(property) {
-      return property.location;
+      return property.property_location;
     });
     // get rid of any dupes
     neighborhoods = _.uniq(neighborhoods);
@@ -27,21 +50,24 @@ var Neighborhoods = React.createClass({
       };
     });
     return neighborhoodsObjectsArray;
-  },
-  updateNeighborhoods: function(selection, list) {
-    this.props.updateFilteredNeighborhoods(list, this.properties);
-  },
-  render: function() {
+  }
+
+  updateNeighborhoods (selection) {
+    this.props.updateFilteredNeighborhoods(selection, this.properties);
+  }
+
+  render () {
     var neighborhoods = this.createNeighborhoodList();
     var neighborhoodsToFilter = '';
     // set the default values in the multiselect which are the neighborhoods we are filtering by
     // it takes a string with values separated by commas, so adding a comma to the end of all values
     // except the last one
-    _.each(this.props.filteredNeighborhoods, function(neighborhood, index) {
+    _.each(this.props.filteredNeighborhoods, (neighborhood, index) => {
       neighborhoodsToFilter += neighborhood.value;
+      debugger;
       if (index !== this.props.filteredNeighborhoods.length - 1)
         neighborhoodsToFilter += ',';
-    }, this); 
+    }); 
     return (
       <div className='nav' style={{width: '250px', marginLeft: '20px'}}>
         <Select
@@ -49,11 +75,18 @@ var Neighborhoods = React.createClass({
           onChange={this.updateNeighborhoods}
           value={neighborhoodsToFilter}
           multi={true}
+          backspaceToRemoveMessage=''
           placeholder='Filter by Neighborhood'
         />
       </div>
     );
   }
-});
+};
 
-module.exports = Neighborhoods;
+Neighborhoods.contextTypes = {
+  saleProperties: PropTypes.object.isRequired,
+  rentalProperties: PropTypes.object.isRequired,
+  neighborhood: PropTypes.string
+}
+
+export default Neighborhoods;

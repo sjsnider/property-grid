@@ -1,6 +1,7 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
-var RentOrBuy = React.createClass({
+var RentOrBuy = createReactClass({
   updateRentOrBuy: function(buy) {
     this.props.updateRentOrBuy(buy);
   },

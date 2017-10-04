@@ -63,7 +63,7 @@ class FilterBar extends React.Component {
       });
       var properties = buy ? this.context.saleProperties : this.context.rentalProperties;
       var data;
-      if (this.neighborhood) {
+      if (this.neighborhood && this.neighborhood !== 'placeholder') {
         const nameArray = this.neighborhood.split('-');
         const nameArrayCaps = nameArray.map(w => {
           return w.charAt(0).toUpperCase() + w.slice(1);

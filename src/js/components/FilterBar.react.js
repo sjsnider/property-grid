@@ -12,19 +12,44 @@ class FilterBar extends React.Component {
     super(props);
     this.state = {
       buy: true,
-      filteredNeighborhoods: [],
+      filteredNeighborhoods: '',
       listings: context.saleProperties
     }
+
+    this.checkForUrlFilter = this.checkForUrlFilter.bind(this);
     this.updateViewableListings = this.updateViewableListings.bind(this);
     this.updateRentOrBuy = this.updateRentOrBuy.bind(this);
     this.updateFilteredNeighborhoods = this.updateFilteredNeighborhoods.bind(this);
+  }
+
+  checkForUrlFilter(neighborhood) {
+    this.properties = this.state.buy ? this.context.saleProperties : this.context.rentalProperties;
+    neighborhood = this.neighborhood ? neighborhood : this.context.neighborhood;
+    // filter based on url path
+
+    if (this.neighborhood !== neighborhood) {
+      var data;
+      if (neighborhood) {
+        const nameArray = neighborhood.split('-');
+        const nameArrayCaps = nameArray.map(w => {
+          return w.charAt(0).toUpperCase() + w.slice(1);
+        });
+        data = { value: nameArrayCaps.join(' ') };
+      }
+      
+      this.updateFilteredNeighborhoods(data, this.properties);
+      
+    }
+
+    this.neighborhood = neighborhood || 'placeholder';
+
   }
 
   updateViewableListings (listings, filteredNeighborhoods) {
     // default to buy tab, no filters, and sale Properties
     this.setState({
       listings: listings,
-      filteredNeighborhoods: filteredNeighborhoods
+      filteredNeighborhoods: filteredNeighborhoods ? filteredNeighborhoods.value : ''
     });
   }
 
@@ -37,21 +62,27 @@ class FilterBar extends React.Component {
         buy: buy
       });
       var properties = buy ? this.context.saleProperties : this.context.rentalProperties;
-      this.updateViewableListings(properties, []);
+      var data;
+      if (this.neighborhood) {
+        const nameArray = this.neighborhood.split('-');
+        const nameArrayCaps = nameArray.map(w => {
+          return w.charAt(0).toUpperCase() + w.slice(1);
+        });
+        data = { value: nameArrayCaps.join(' ') };
+      }
+      
+      this.updateFilteredNeighborhoods(data, properties);
     }
   }
 
-  updateFilteredNeighborhoods (list, properties) {
+  updateFilteredNeighborhoods (selection, properties) {
     // get properties with the selected neighborhoods
     var viewableProperties = _.filter(properties, function(property) {
-      var contains = list.length === 0 ? true : false;
-      _.each(list, function(neighborhood) {
-          if (neighborhood.value === property.property_location)
-            contains = true;
-      });
+      if (!selection) return true;
+      var contains = selection.value === property.property_location;
       return contains;
     });
-    this.updateViewableListings(viewableProperties, list);
+    this.updateViewableListings(viewableProperties, selection);
   }
 
   render () {
@@ -62,14 +93,14 @@ class FilterBar extends React.Component {
             <div className='flex'>
               <div style={{width: '100%'}}>
                 <RentOrBuy buy={this.state.buy} updateRentOrBuy={this.updateRentOrBuy} />
-                <Neighborhoods filteredNeighborhoods={this.state.filteredNeighborhoods} buy={this.state.buy} updateFilteredNeighborhoods={this.updateFilteredNeighborhoods} />
+                <Neighborhoods filteredNeighborhoods={this.state.filteredNeighborhoods} buy={this.state.buy} updateFilteredNeighborhoods={this.updateFilteredNeighborhoods} checkForUrlFilter={this.checkForUrlFilter} />
                 <Views />
               </div>
             </div>
           </div>
         </div>
         <div>
-          <SortBar listings={this.state.listings} />
+          <SortBar listings={this.state.listings} filteredNeighborhood={this.state.filteredNeighborhoods} checkForUrlFilter={this.checkForUrlFilter} />
         </div>
       </div>
     );
@@ -78,7 +109,8 @@ class FilterBar extends React.Component {
 
 FilterBar.contextTypes = {
   saleProperties: PropTypes.object.isRequired,
-  rentalProperties: PropTypes.object.isRequired
+  rentalProperties: PropTypes.object.isRequired,
+  neighborhood: PropTypes.string
 }
 
 export default FilterBar;

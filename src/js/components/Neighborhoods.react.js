@@ -1,4 +1,5 @@
 import Select from 'react-select';
+import history from '../history';
 var React = require('react');
 var PropTypes = require('prop-types');
 var _ = require('lodash');
@@ -8,28 +9,10 @@ class Neighborhoods extends React.Component {
     super(props);
     this.createNeighborhoodList = this.createNeighborhoodList.bind(this);
     this.updateNeighborhoods = this.updateNeighborhoods.bind(this);
-    this.checkForUrlFilter = this.checkForUrlFilter.bind(this);
   }
   
   componentDidMount() {
-    this.checkForUrlFilter();
-  }
-
-  componentWillUpdate() {
-    this.checkForUrlFilter();
-  }
-
-  checkForUrlFilter() {
-    // filter based on url path
-    if (this.context.neighborhood && this.neighborhood !== this.context.neighborhood) {
-      this.neighborhood = this.context.neighborhood;
-      const nameArray = this.neighborhood.split('-');
-      const nameArrayCaps = nameArray.map(w => {
-        return w.charAt(0).toUpperCase() + w.slice(1);
-      });
-
-      this.updateNeighborhoods([{ value: nameArrayCaps.join(' ') }]);
-    }
+    this.props.checkForUrlFilter();
   }
 
   createNeighborhoodList () {
@@ -53,28 +36,26 @@ class Neighborhoods extends React.Component {
   }
 
   updateNeighborhoods (selection) {
-    this.props.updateFilteredNeighborhoods(selection, this.properties);
+    var neighborhoodURL;
+    if (!selection) {
+      neighborhoodURL = '';
+    } else {
+      neighborhoodURL = selection.value.split(' ').join('-').toLowerCase();
+    }
+    history.push(`/${neighborhoodURL}`);
+    this.props.checkForUrlFilter(neighborhoodURL);
   }
 
   render () {
     var neighborhoods = this.createNeighborhoodList();
-    var neighborhoodsToFilter = '';
-    // set the default values in the multiselect which are the neighborhoods we are filtering by
-    // it takes a string with values separated by commas, so adding a comma to the end of all values
-    // except the last one
-    _.each(this.props.filteredNeighborhoods, (neighborhood, index) => {
-      neighborhoodsToFilter += neighborhood.value;
-      debugger;
-      if (index !== this.props.filteredNeighborhoods.length - 1)
-        neighborhoodsToFilter += ',';
-    }); 
+    var neighborhoodsToFilter = this.props.filteredNeighborhoods;
+
     return (
       <div className='nav' style={{width: '250px', marginLeft: '20px'}}>
         <Select
           options={neighborhoods}
           onChange={this.updateNeighborhoods}
           value={neighborhoodsToFilter}
-          multi={true}
           backspaceToRemoveMessage=''
           placeholder='Filter by Neighborhood'
         />
@@ -85,8 +66,7 @@ class Neighborhoods extends React.Component {
 
 Neighborhoods.contextTypes = {
   saleProperties: PropTypes.object.isRequired,
-  rentalProperties: PropTypes.object.isRequired,
-  neighborhood: PropTypes.string
+  rentalProperties: PropTypes.object.isRequired
 }
 
 export default Neighborhoods;

@@ -1,7 +1,8 @@
 import  Select from 'react-select';
+import Listings from '../components/Listings.react';
+
 var React = require('react');
 var createReactClass = require('create-react-class');
-var Listings = require('../components/Listings.react');
 var _ = require('lodash');
 
 var sortOptions = [
@@ -23,15 +24,19 @@ var sortOptions = [
   }
 ];
 
-var SortBar = createReactClass({
-  getInitialState: function() {
-    // default to sorting by price, high to low
-    return {
-      sortValue: 'price:descend'
-    };
-  },
-  sortListings: function() {
-    var sortDescriptionArray = this.state.sortValue.split(':');
+class SortBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      sortValue: sortOptions[0]
+    }
+
+    this.sortListings = this.sortListings.bind(this);
+    this.updateSort = this.updateSort.bind(this);
+  }
+
+  sortListings () {
+    var sortDescriptionArray = this.state.sortValue.value.split(':');
     var propertyToSortBy = sortDescriptionArray[0];
     var sortDirection = sortDescriptionArray[1];
     // create an array so I can sort it
@@ -48,13 +53,15 @@ var SortBar = createReactClass({
         return parseInt(b[propertyToSortBy].replace(',', ''), 10) - parseInt(a[propertyToSortBy].replace(',', ''), 10);
     });
     return listingsArray;
-  },
-  updateSort: function(sortValue) {
+  }
+
+  updateSort (sortValue) {
     this.setState({
       sortValue: sortValue
     });
-  },
-  render: function() {
+  }
+  
+  render () {
     var listings = this.sortListings();
     return (
       <div>
@@ -68,10 +75,10 @@ var SortBar = createReactClass({
             />
           </div>
         </div>
-        <Listings listings={listings} />
+        <Listings listings={listings} filteredNeighborhood={this.props.filteredNeighborhood} checkForUrlFilter={this.props.checkForUrlFilter} />
       </div>
     );
   }
-});
+};
 
 export default SortBar;
